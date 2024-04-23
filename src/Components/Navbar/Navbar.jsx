@@ -1,42 +1,36 @@
 const Navbar = () => {
+    const navLinks = <>
+        <li><a className="font-semibold text-base overflow-hidden transition-all hover:scale-105 py-2 hover:shadow-2xl text-white">Home</a></li>
+        <li><a className="font-semibold text-base overflow-hidden transition-all hover:scale-105 py-2 hover:shadow-2xl text-white">Events</a></li>
+        <li><a className="font-semibold text-base overflow-hidden transition-all hover:scale-105 py-2 hover:shadow-2xl text-white">About us</a></li>
+        <li><a className="font-semibold text-base overflow-hidden transition-all hover:scale-105 py-2 hover:shadow-2xl text-white">Contacts</a></li>
+    </>
     return (
-        <div className="navbar bg-gradient-to-r from- to-blue-500">
+        <div className="md:px-8 navbar rounded-2xl bg-gradient-to-r from-indigo-600 to-purple-400">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gradient-to-r from-indigo-600 to-purple-400 rounded-box w-52">
+                        {navLinks}
                     </ul>
                 </div>
-                <img className="btn" src="/src/assets/resources/icon/EventHost.png"/>
+                <img className="h-3" src="/src/assets/resources/icon/EventHost.png" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <details>
-                            <summary>Parent</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    {navLinks}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end gap-6">
+                <div className="btn btn-circle">
+                        <img className="rounded-full" alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                </div>
+
+                <div className="btn btn-circle bg-transparent">
+                    <img src="/src/assets/resources/icon/Group 7.png" />
+                </div>
             </div>
         </div>
     );
