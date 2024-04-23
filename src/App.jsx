@@ -1,4 +1,5 @@
 import './App.css'
+import Banner from './Components/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className='max-w-screen-xl mx-auto'>
        <Navbar></Navbar>
+       <Banner></Banner>
       </div>
     </>
   )

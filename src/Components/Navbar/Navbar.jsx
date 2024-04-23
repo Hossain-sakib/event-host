@@ -23,12 +23,12 @@ const Navbar = () => {
                     {navLinks}
                 </ul>
             </div>
-            <div className="navbar-end gap-6">
-                <div className="btn btn-circle">
+            <div className="navbar-end gap-4">
+                <div className="btn-sm btn-circle">
                         <img className="rounded-full" alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                 </div>
 
-                <div className="btn btn-circle bg-transparent">
+                <div className="bg-transparent">
                     <img src="/src/assets/resources/icon/Group 7.png" />
                 </div>
             </div>
