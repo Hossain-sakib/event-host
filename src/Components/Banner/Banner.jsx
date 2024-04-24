@@ -7,7 +7,7 @@ const Banner = () => {
                     <h1 className="md:text-5xl text-2xl font-bold">CMA Fest</h1>
                     <p className="text-sm md:text-lg">Make memories that will last a lifetime. See your favorite <br /> artists live at CMA Fest!</p>
                     <div className="flex gap-4">
-                        <button className="btn btn-xs md:btn-sm border-none text-white font-semibold bg-indigo-600"> <img src="/src/assets/resources/icon/Vector.png" alt="" /> Get Ticket</button>
+                        <button className="btn btn-xs md:btn-sm border-none text-white font-semibold bg-indigo-600"> <img src="/public/resources/icon/Vector.png" alt="" /> Get Ticket</button>
                         <button className="btn btn-xs md:btn-sm btn-outline text-white font-semibold">Explore All Events</button>
                     </div>
                 </div>

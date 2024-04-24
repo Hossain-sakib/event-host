@@ -24,7 +24,7 @@ const Events = () => {
                         <div className="flex items-start">
                             <div className="text-left space-y-4">
                                 <a className="bg-indigo-500 text-white pb-1 px-3 rounded-md">Music</a>
-                                <p className="flex items-center gap-2 text-lg font-semibold"><div className="text-indigo-500"><FaLocationDot /></div> Celebrity Convention Hall</p>
+                                <p className="flex items-center gap-2 text-lg font-semibold"><span className="text-indigo-500"><FaLocationDot /></span> Celebrity Convention Hall</p>
                                 <p className="text-2xl font-bold">ROUFIAN’S HSC-24 RAG DAy</p>
                                 <div className="card-actions">
                                     <div className="btn btn-sm md:btn-md border-none text-white font-semibold bg-indigo-500 hover:bg-indigo-300"><img src="/public/resources/icon/Vector.png" alt="" />See Ticket</div>
@@ -50,10 +50,10 @@ const Events = () => {
                         <div className="flex items-start">
                             <div className="text-left space-y-4">
                                 <a className="bg-indigo-500 text-white pb-1 px-3 rounded-md">Music</a>
-                                <p className="flex items-center gap-2 text-lg font-semibold"><div className="text-indigo-500"><FaLocationDot /></div> Celebrity Convention Hall</p>
+                                <p className="flex items-center gap-2 text-lg font-semibold"><span className="text-indigo-500"><FaLocationDot /></span> Celebrity Convention Hall</p>
                                 <p className="text-2xl font-bold">ROUFIAN’S HSC-24 RAG DAy</p>
                                 <div className="card-actions">
-                                    <div className="btn btn-sm md:btn-md border-none text-white font-semibold bg-indigo-500 hover:bg-indigo-300"><img src="/src/assets/resources/icon/Vector.png" alt="" />See Ticket</div>
+                                    <div className="btn btn-sm md:btn-md border-none text-white font-semibold bg-indigo-500 hover:bg-indigo-300"><img src="/public/resources/icon/Vector.png" alt="" />See Ticket</div>
                                     <div className="btn btn-sm md:btn-md border-none text-white font-semibold bg-white "><span className="text-2xl text-indigo-500">20</span><span className="text-black">Seat <br /> left</span></div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ const Events = () => {
                         <div className="flex items-start">
                             <div className="text-left space-y-4">
                                 <a className="bg-indigo-500 text-white pb-1 px-3 rounded-md">Music</a>
-                                <p className="flex items-center gap-2 text-lg font-semibold"><div className="text-indigo-500"><FaLocationDot /></div> Celebrity Convention Hall</p>
+                                <p className="flex items-center gap-2 text-lg font-semibold"><span className="text-indigo-500"><FaLocationDot /></span> Celebrity Convention Hall</p>
                                 <p className="text-2xl font-bold">ROUFIAN’S HSC-24 RAG DAy</p>
                                 <div className="card-actions">
                                     <div className="btn btn-sm md:btn-md border-none text-white font-semibold bg-indigo-500 hover:bg-indigo-300"><img src="/public/resources/icon/Vector.png" alt="" />See Ticket</div>
