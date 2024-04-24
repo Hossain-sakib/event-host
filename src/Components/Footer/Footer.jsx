@@ -43,7 +43,7 @@ const Footer = () => {
                </div>
                 <nav className="md:place-self-center md:justify-self-end">
                     <div className="grid grid-flow-col gap-4">
-                       <p>©2024 TickHost & UVTR. All right reserved</p>
+                       <p>©2024 TickHost & UVTR. All right reserved</p>
                     </div>
                 </nav>
             </footer>
