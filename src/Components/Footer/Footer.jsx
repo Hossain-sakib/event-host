@@ -37,9 +37,9 @@ const Footer = () => {
             <footer className="footer py-4 border-t-4 border-white border-opacity-40">
                <div className="flex gap-2 items-center justify-center">
                 <p>Pay With</p>
-                <img className="w-8 h-6" src="/src/assets/resources/image 9.png" alt="" />
-                <img className="w-8 h-6" src="/src/assets/resources/Group 40.png" alt="" />
-                <img className="w-8 h-6" src="/src/assets/resources/dutch-bangla-rocket-logo-B4D1CC458D-seeklogo 1.png" alt="" />
+                <img className="w-8 h-6" src="/public/resources/image 9.png" alt="" />
+                <img className="w-8 h-6" src="/public/resources/Group 40.png" alt="" />
+                <img className="w-8 h-6" src="/public/resources/dutch-bangla-rocket-logo-B4D1CC458D-seeklogo 1.png" alt="" />
                </div>
                 <nav className="md:place-self-center md:justify-self-end">
                     <div className="grid grid-flow-col gap-4">

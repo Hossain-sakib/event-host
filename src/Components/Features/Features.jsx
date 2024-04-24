@@ -6,7 +6,7 @@ const Features = () => {
         <div className="mt-12">
             <div className="rounded-3xl bg-gradient-to-r from-indigo-600 to-purple-400 ">
                 <div className="flex pt-4 flex-col md:flex-row md:gap-12 md:pt-36 md:px-12 -mb-16 items-center justify-center space-y-2">
-                    <img src="/src/assets/resources/Group 29.png" alt="Movie" />
+                    <img src="/public/resources/Group 29.png" alt="Movie" />
                     <div className="text-white md:text-left space-y-4">
                         <h1 className="text-4xl font-semibold">Host Your Even Easily & Automatically <br /> With Us</h1>
                         <p className="text-2xl">We Provide The Best Event Ticketing & Management Solutions</p>
@@ -19,7 +19,7 @@ const Features = () => {
                     </div>
                 </div>
                 <div className="flex justify-end">
-                    <img src="/src/assets/resources/Group.png" alt="" />
+                    <img src="/public/resources/Group.png" alt="" />
                 </div>
             </div>
         </div>
