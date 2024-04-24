@@ -2,7 +2,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Events = () => {
     return (
-        <div>
+   
             <div className="flex flex-col items-center justify-center mt-12 space-y-4">
                 <h1 className="md:text-5xl text-2xl font-bold">Events</h1>
                 <ul className="flex items-center justify-center gap-2">
@@ -94,7 +94,7 @@ const Events = () => {
                     </div>
                 </div>
             </div>
-        </div>
+   
 
     );
 };
