@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 const Features = () => {
     return (
         <div className="mt-12">
-            <div className="rounded-3xl bg-indigo-500 ">
+            <div className="rounded-3xl bg-gradient-to-r from-indigo-600 to-purple-400 ">
                 <div className="flex pt-4 flex-col md:flex-row md:gap-12 md:pt-36 md:px-12 -mb-16 items-center justify-center space-y-2">
                     <img src="/src/assets/resources/Group 29.png" alt="Movie" />
                     <div className="text-white md:text-left space-y-4">
